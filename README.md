@@ -1,6 +1,9 @@
 # A good teacher learns while teaching: Heterogeneous architectural knowledge distillation for fast MRI reconstruction
 
-This repository contains the implementation of a lightweight image reconstruction network that leverages advanced knowledge distillation strategies to achieve high-quality results with reduced computational overhead. The model is designed for real-time applications and demonstrates robust performance comparable to larger networks.
+Reconstructing high-quality images from under-sampled k-space data is a core problem in fast Magnetic Resonance Imaging. To address this issue, in this study, a super-resolution reconstruction technique based on knowledge distillation across heterogeneous networks.
+Employing a corrective strategy to refine the erroneous knowledge within the teacher network, the proposed method enhances the accuracy of the knowledge imparted to the student network by incorporating accurate edge information.
+By reconstructing the mathematical model, the proposed method ensures that the convolutional neural network-based student network can effectively learn the remote feature information from the visual transformer-based teacher network, and achieve high-quality image reconstruction using heterogeneous network knowledge transfer.
+Experiments on multiple publicly available datasets, in both k-space and image domain, demonstrate that the proposed method achieves performance close to state-of-the-art methods while maintaining a low level of complexity, and can efficiently recover the original information from k-space under-sampled data.
 
 ## Table of Contents
 
