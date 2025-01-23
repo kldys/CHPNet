@@ -7,7 +7,7 @@ This repository contains the implementation of a lightweight image reconstructio
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Experiments](#experiments)
+- [Dataset](#dataset)
 - [Citation](#citation)
 
 ## Introduction
@@ -33,21 +33,15 @@ To set up the environment, ensure you have Python installed and execute the foll
 
 ```bash
 git clone https://github.com/kldys/CHPNet
-cd CHPNet```
-
-## Experiments
-
-### Dataset
+cd CHPNet
+```
+## Dataset
 
 The experiments were conducted on the following datasets:
 
-- **Dataset A**: Description of Dataset A.
-- **Dataset B**: Description of Dataset B.
-
-### Configuration
-
-- **Teacher Network**: Model name and architecture.
-- **Student Network**: Model name and architecture.
-- **Training Settings**: Optimizer, learning rate, number of epochs, etc.
+- **FastMRI**: A large-scale MRI dataset collected for fast MRI provides both raw k-space data and DICOM images. It includes a single-coil subset and a multi-coil subsets.  In contrast to a single-coil MRI, multi-coil MRI poses a significantly greater challenge due to issues with phase differences and sensitivity mapping, which exceed the scope of the present study.  Here, the single-coil subset was used, which contained 1,594 scans acquired for diagnostic knee MRI, to utilize for fast MRI reconstruction experiments. Division of the training and testing datasets adhered to the guidelines provided by the data source. 
+- **Brain tumor MRI**: This dataset consists of 7023 brain MRI images. For the dataset, 400 images were randomly selected for training, and an additional 20 images (five for each brain tumor type: glioma, meningioma, no tumor, and pituitary) were selected for testing.
+- **Flickr2K**: This dataset comprises 2650 color 2K high-resolution natural images. In this study, 400 high-resolution natural images were randomly selected from Flickr2K for training to boost the performance of the network. During the training phase, the dataset comprises an equal number of natural and MRI images.
+- **Set5**: The dataset consists of five high-resolution natural images and their corresponding low-resolution versions, and is designed to validate the migration performance of the algorithm on different types of images.
 
 
