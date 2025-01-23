@@ -15,10 +15,10 @@ This repository contains the implementation of a lightweight image reconstructio
 The proposed lightweight image reconstruction network integrates a compact architecture with a knowledge distillation framework to balance efficiency and reconstruction quality. The model employs a dynamic adjustment mechanism to improve the effectiveness of knowledge transfer, ensuring robust performance even in resource-constrained environments.
 
 Key contributions include:
-1. Proposal for a dynamic distillation strategy that incorporates a knowledge correction mechanism for the teacher network, which allows it to adjust its parameters and structure by feedback received from the student network, simultaneously rectifying any preexisting errors in its knowledge.
-2. Proposal for a lightweight heterogeneous network distillation framework that leverages the strengths of both CNN and ViT networks.
-3. Application of a sub-pixel convolution strategy to reconstruct the down-sampling low-dimensional features in the network, effectively using information from the original feature map. Achievement of traditional up-sampling effects without introducing additional zero- or one-padding preserves network simplicity while improving the accuracy of reconstruction of low-level features.
-4. Propossal for a novel method for fast MRI reconstruction that achieves performance comparable to state-of-the-art techniques while using significantly fewer parameters.
+* Proposal for a dynamic distillation strategy that incorporates a knowledge correction mechanism for the teacher network, which allows it to adjust its parameters and structure by feedback received from the student network, simultaneously rectifying any preexisting errors in its knowledge.
+* Proposal for a lightweight heterogeneous network distillation framework that leverages the strengths of both CNN and ViT networks.
+* Application of a sub-pixel convolution strategy to reconstruct the down-sampling low-dimensional features in the network, effectively using information from the original feature map. Achievement of traditional up-sampling effects without introducing additional zero- or one-padding preserves network simplicity while improving the accuracy of reconstruction of low-level features.
+* Propossal for a novel method for fast MRI reconstruction that achieves performance comparable to state-of-the-art techniques while using significantly fewer parameters.
 
 ## Features
 
@@ -43,5 +43,12 @@ The experiments were conducted on the following datasets:
 - **Brain tumor MRI**: This dataset consists of 7023 brain MRI images. For the dataset, 400 images were randomly selected for training, and an additional 20 images (five for each brain tumor type: glioma, meningioma, no tumor, and pituitary) were selected for testing.
 - **Flickr2K**: This dataset comprises 2650 color 2K high-resolution natural images. In this study, 400 high-resolution natural images were randomly selected from Flickr2K for training to boost the performance of the network. During the training phase, the dataset comprises an equal number of natural and MRI images.
 - **Set5**: The dataset consists of five high-resolution natural images and their corresponding low-resolution versions, and is designed to validate the migration performance of the algorithm on different types of images.
+- 
+## Citation
 
+If you find this repository helpful, please cite our work:
+
+```bibtex
+@article{
+}
 
