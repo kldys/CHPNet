@@ -33,7 +33,7 @@ To set up the environment, ensure you have Python installed and execute the foll
 
 ```bash
 git clone https://github.com/kldys/CHPNet
-cd CHPNet
+cd CHPNet```
 
 ## Experiments
 
