@@ -7,7 +7,6 @@ This repository contains the implementation of a lightweight image reconstructio
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Experiments](#experiments)
 - [Citation](#citation)
 
@@ -33,5 +32,22 @@ Key contributions include:
 To set up the environment, ensure you have Python installed and execute the following commands:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+git clone https://github.com/kldys/CHPNet
+cd CHPNet
+
+## Experiments
+
+### Dataset
+
+The experiments were conducted on the following datasets:
+
+- **Dataset A**: Description of Dataset A.
+- **Dataset B**: Description of Dataset B.
+
+### Configuration
+
+- **Teacher Network**: Model name and architecture.
+- **Student Network**: Model name and architecture.
+- **Training Settings**: Optimizer, learning rate, number of epochs, etc.
+
+
