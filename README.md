@@ -11,6 +11,7 @@ Experiments on multiple publicly available datasets, in both k-space and image d
 - [Features](#features)
 - [Installation](#installation)
 - [Dataset](#dataset)
+- [Demonstration](#demonstration)
 - [Citation](#citation)
 
 ## Introduction
@@ -46,7 +47,15 @@ The experiments were conducted on the following datasets:
 - **Brain tumor MRI**: This dataset consists of 7023 brain MRI images. For the dataset, 400 images were randomly selected for training, and an additional 20 images (five for each brain tumor type: glioma, meningioma, no tumor, and pituitary) were selected for testing.
 - **Flickr2K**: This dataset comprises 2650 color 2K high-resolution natural images. In this study, 400 high-resolution natural images were randomly selected from Flickr2K for training to boost the performance of the network. During the training phase, the dataset comprises an equal number of natural and MRI images.
 - **Set5**: The dataset consists of five high-resolution natural images and their corresponding low-resolution versions, and is designed to validate the migration performance of the algorithm on different types of images.
-- 
+  
+## Demonstration
+This project provides a pretrained model and a test image located in the testimg directory. Users can use the provided test image to verify the model's functionality and performance.
+### How to use
+
+1. Download or clone this project.
+2. Load the model file in `testimg/x4.pth`.
+3. Use the test image in `testimg/` for inference.
+
 ## Citation
 
 If you find this repository helpful, please cite our work:
