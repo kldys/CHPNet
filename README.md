@@ -52,6 +52,15 @@ The experiments were conducted on the following datasets:
 If you find this repository helpful, please cite our work:
 
 ```bibtex
-@article{
+@article{QIU2025113048,
+title = {A good teacher learns while teaching: Heterogeneous architectural knowledge distillation for fast MRI reconstruction},
+journal = {Knowledge-Based Systems},
+volume = {311},
+pages = {113048},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.113048},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705125000954},
+author = {Cheng-Hao Qiu and Xian-Shi Zhang and Yong-Jie Li},
 }
 
